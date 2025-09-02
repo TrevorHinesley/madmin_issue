@@ -1,0 +1,22 @@
+development:
+  host: localhost
+  adapter: postgresql
+  database: madmin_issue_development
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } * ENV.fetch("WEB_CONCURRENCY") { 2 } %>
+
+staging:
+  adapter: postgresql
+  database: madmin_issue_staging
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } * ENV.fetch("WEB_CONCURRENCY") { 2 } %>
+
+production:
+  adapter: postgresql
+  database: madmin_issue_production
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } * ENV.fetch("WEB_CONCURRENCY") { 2 } %>
+  reaping_frequency: 10
+
+test:
+  host: localhost
+  adapter: postgresql
+  database: madmin_issue_test
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } * ENV.fetch("WEB_CONCURRENCY") { 2 } %>
