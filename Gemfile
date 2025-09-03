@@ -4,7 +4,7 @@ gem "rails", "~> 8.0.2"
 gem "cssbundling-rails",          "~> 1.4"                                     # CSS bundling
 gem "jsbundling-rails",           "~> 1.3"                                     # JavaScript bundling
 gem "madmin",                     "~> 2.1"
-gem "pg",                         "~> 1.5.9"                                   # ActiveRecord PostgreSQL adaptor
+gem "pg",                         "~> 1.6.2"                                   # ActiveRecord PostgreSQL adaptor
 gem "propshaft",                  "~> 1.1"                                     # Asset pipeline
 gem "puma",                       "~> 6.0" # App server
 gem "rubocop",                    "~> 1.79", require: false
