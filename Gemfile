@@ -8,7 +8,7 @@ gem "pg",                         "~> 1.5.9"                                   #
 gem "propshaft",                  "~> 1.1"                                     # Asset pipeline
 gem "puma",                       "~> 6.0" # App server
 gem "rubocop",                    "~> 1.79", require: false
-gem "sidekiq",                    "~> 5.2.10" # Sidekiq/Redis background jobs
+gem "sidekiq",                    "~> 8.0.7" # Sidekiq/Redis background jobs
 gem "stimulus-rails",             "~> 1.3"                                     # Stimulus JavaScript framework
 gem "turbo-rails",                "~> 2.0"                                     # Turbo for modern web applications
 
