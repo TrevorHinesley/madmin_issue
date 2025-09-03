@@ -26,7 +26,7 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
   gem "foreman",                  "~> 0.87.2"                                  # Procfile execution
   gem "listen",                   ">= 3.1.5"
-  gem "spring",                   "~> 4.0.0"                                   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem "spring",                   "~> 4.4.0"                                   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem "spring-watcher-listen",    "~> 2.1.0"
   gem "web-console",              "~> 4.2"                                     # Access an interactive console on exception pages or by calling "console" anywhere in the code.
 end
