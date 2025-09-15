@@ -6,7 +6,7 @@ gem "jsbundling-rails",           "~> 1.3"                                     #
 gem "madmin",                     "~> 2.1"
 gem "pg",                         "~> 1.5.9"                                   # ActiveRecord PostgreSQL adaptor
 gem "propshaft",                  "~> 1.1"                                     # Asset pipeline
-gem "puma",                       "~> 6.0" # App server
+gem "puma",                       "~> 7.0" # App server
 gem "rubocop",                    "~> 1.79", require: false
 gem "sidekiq",                    "~> 5.2.10" # Sidekiq/Redis background jobs
 gem "stimulus-rails",             "~> 1.3"                                     # Stimulus JavaScript framework
