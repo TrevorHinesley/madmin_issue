@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 8.0.2"
+gem "rails", "~> 8.0.3"
 gem "cssbundling-rails",          "~> 1.4"                                     # CSS bundling
 gem "jsbundling-rails",           "~> 1.3"                                     # JavaScript bundling
 gem "madmin",                     "~> 2.1"
